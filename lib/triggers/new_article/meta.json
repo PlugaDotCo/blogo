@@ -1,0 +1,25 @@
+{
+  "name": "Novo artigo",
+  "description": "Novo artigo",
+  "trigger_fields": {
+    "type": "local",
+    "fields": [
+      {
+        "key": "title",
+        "name": {
+          "pt_BR": "Título",
+          "en": "Title"
+        },
+        "description": {
+          "pt_BR": "Título do artigo",
+          "en": "Article's title"
+        }
+      }
+    ]
+  },
+  "configuration_fields": [],
+  "trigger_type": "polling",
+  "idempotent": [
+    "id"
+  ]
+}

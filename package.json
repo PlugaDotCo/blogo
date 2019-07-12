@@ -1,0 +1,13 @@
+{
+  "engines": {
+    "node": ">= 8.10"
+  },
+  "dependencies": {
+    "pluga-plg": "0.0.1"
+  },
+  "devDependencies": {
+    "axios-debug": "0.0.4",
+    "chai": "4.2.0",
+    "dotenv": "^7.0.0"
+  }
+}

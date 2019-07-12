@@ -1,0 +1,24 @@
+{
+  "name": "Criar artigo",
+  "description": "Criar artigo",
+  "action_fields": {
+    "fields": [
+      {
+        "key": "title",
+        "name": {
+          "pt_BR": "Título",
+          "en": "Title"
+        },
+        "description": {
+          "pt_BR": "Título do artigo",
+          "en": "Article's title"
+        },
+        "required": true,
+        "visible": true,
+        "advanced": false,
+        "field_type": "custom",
+        "data_type": "string"
+      }
+    ]
+  }
+}

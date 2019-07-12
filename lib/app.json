@@ -1,0 +1,37 @@
+{
+  "app_id": "blogo",
+  "version": "0.0.1",
+  "name": "Blogo",
+  "color": "#000000",
+  "description": {
+    "pt_BR": "My awesome app description!",
+    "en": "My awesome app description!"
+  },
+  "website": "https://example.com",
+  "signup_url": "https://example.com/signup",
+  "api_base_uri": {
+    "production": {
+      "uri": "https://api.example.com",
+      "label": "Produção",
+      "default": true
+    }
+  },
+  "authentication": {
+    "type": "pass_through_header",
+    "fields": [
+      {
+        "name": "access_token",
+        "label": "Your access token",
+        "mapping": "Authorization",
+        "prefix": "Bearer",
+        "type": "text"
+      }
+    ],
+    "ping_request": {
+      "method": "/ping",
+      "params": {
+        "limit": 1
+      }
+    }
+  }
+}
