@@ -11,7 +11,7 @@
   "signup_url": "https://example.com/signup",
   "api_base_uri": {
     "production": {
-      "uri": "https://api.example.com",
+      "uri": "https://5ae3551934b5970014d2edfe.mockapi.io",
       "label": "Produção",
       "default": true
     }
